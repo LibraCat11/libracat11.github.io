@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Yeseva+One&display=swap');
+
+body {
+    font-family: 'Space Grotesk', 'Lucida Sans', sans-serif;
+    background-color: #EFF2FE;
+}
+
+.title {
+    font-family: 'Yeseva One';
+}
+.navbar-color {
+    background-color: #8D6B94;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-item:hover {
+    background-color: #b185a7;
+}
+
+.card-color {
+    background-color: #DBE1FC;
+}
+
+.hero-img {
+    z-index: 1;
+    width: 60vh;
+  
+}
+
+.hero-img::before {
+        content: "";
+        background: aqua;
+
+       
+}
+
+.card-body {
+    height: 200px;
+}
+
+.btn-color {
+    background-color: #8D6B94;
+}
+
+.btn-color:hover {
+    background-color: #b185a7;
+}
