@@ -18,6 +18,7 @@ body {
 
 .nav-item:hover {
     background-color: #b185a7;
+    transition: background-color 400ms;
 }
 
 .card-color {
