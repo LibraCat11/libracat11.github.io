@@ -49,3 +49,51 @@ body {
 .btn-color:hover {
     background-color: #b185a7;
 }
+
+.box {
+    margin: 0;
+    width: 150px; /*make a bit bigger tbh*/
+    border-radius: 0.5rem;
+    background-position: 0%;
+    color: white;
+    font-size: 150%;
+    background-color: #8D6B94;
+    transition: font-size 300ms, background-color 2s;
+  }
+  
+  .box:hover {
+    cursor: pointer;
+    font-size: 200%;
+    background:  #b185a7;
+  }
+
+
+  .gradient-box {
+    background-image: linear-gradient(
+      -30deg,
+      darkturquoise 10% 50%,
+      #b185a7 50% 100%
+    );
+    background-size: 200%;
+    border-radius: 0.5rem;
+    background-position: 0%;
+    transition: background-position 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .gradient-box:hover {
+    background-position: 100%;
+  }
+
+@media only screen and (min-width:769px) {
+    .carousel-item img {
+        object-fit: contain;
+     object-position: center;
+     overflow: hidden;
+        height:100vh;
+    }    
+    
+}
